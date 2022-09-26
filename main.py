@@ -14,5 +14,13 @@ def average_temperature():
     return average
 
 
+def max_temperature():
+    max = data["temp"].max()
+    return max
+
+
 avg = average_temperature()
+max_temperature = max_temperature()
+
 print(avg)
+print(max_temperature)
